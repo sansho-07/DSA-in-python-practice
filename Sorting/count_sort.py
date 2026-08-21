@@ -35,7 +35,7 @@ def countSort(arr,min,max):
     return ans
 
 arr = [2,2,1,3,5,3,6,4,7,8,6]
-min = min(arr)
+min = min(arr) 
 max = max(arr)
 sort = countSort(arr,min,max)
 print(sort)
